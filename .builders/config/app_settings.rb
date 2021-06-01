@@ -58,8 +58,8 @@ def app_configuration
       row :reservation_api         , :dotnet              , "#{s.title} ASP.net API application",
           database_name:            'reservation',
           database_password:        'SamplePassword',
-          app_path:                 File.join(s.app_path, 'reservation'),
-          new_project_command:      'dotnet new mvc -n reservation-api -o .'
+          app_path:                 File.join(s.app_path, 'ReservationApi'),
+          new_project_command:      'dotnet new api -n ReservationApi -o .'
 
       row :reservation_react_native, :react_native       , "#{s.title} admin UI checking on reservations",
           app_path:                 File.join(s.app_path, 'reservation-react-native'),
