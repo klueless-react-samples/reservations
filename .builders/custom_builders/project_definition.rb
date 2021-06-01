@@ -103,6 +103,12 @@ class ProjectDefinition
           variant: nil,
           klass: RailsProject
         },
+        dotnet: {
+          language: :csharp,
+          type: :dotnet,
+          variant: nil,
+          klass: DotnetProject
+        },
         react: {
           language: :javascript,
           type: :react,
@@ -181,6 +187,14 @@ end
 class RailsProject < ProjectDefinition
   def exist?
     project_file = File.join(target_folder, 'Gemfile')
+    super && File.exist?(project_file)
+  end
+end
+
+class DotnetProject < ProjectDefinition
+  def exist?
+    project_name = camel.parse(project.name.to_s)
+    project_file = File.join(target_folder, project_name, "#{project_name}.csproj")
     super && File.exist?(project_file)
   end
 end
