@@ -4,7 +4,7 @@ namespace ReservationApi
 {
     public class Reservation
     {
-        public DateTime Date { get; set; }
+        public string Date { get; set; }
 
         public int Time { get; set; }
 
