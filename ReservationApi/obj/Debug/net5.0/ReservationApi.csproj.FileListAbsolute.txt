@@ -26,3 +26,9 @@
 /Users/davidcruwys/dev/csharp/Reservations/ReservationApi/obj/Debug/net5.0/ref/ReservationApi.dll
 /Users/davidcruwys/dev/csharp/Reservations/ReservationApi/obj/Debug/net5.0/ReservationApi.pdb
 /Users/davidcruwys/dev/csharp/Reservations/ReservationApi/obj/Debug/net5.0/ReservationApi.genruntimeconfig.cache
+/Users/davidcruwys/dev/csharp/Reservations/ReservationApi/bin/Debug/net5.0/System.Web.Cors.dll
+/Users/davidcruwys/dev/csharp/Reservations/ReservationApi/bin/Debug/net5.0/System.Net.Http.Formatting.dll
+/Users/davidcruwys/dev/csharp/Reservations/ReservationApi/bin/Debug/net5.0/System.Web.Http.dll
+/Users/davidcruwys/dev/csharp/Reservations/ReservationApi/bin/Debug/net5.0/System.Web.Http.Cors.dll
+/Users/davidcruwys/dev/csharp/Reservations/ReservationApi/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/davidcruwys/dev/csharp/Reservations/ReservationApi/bin/Debug/net5.0/Newtonsoft.Json.Bson.dll
